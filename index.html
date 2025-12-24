@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinematic Christmas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="bgMusic" preload="auto">
+  <source src="heartbeat.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ========== SLIDE 1 ========== -->
+<section class="slide active" id="slide1">
+
+  <h1 class="title">A Christmas Moment</h1>
+
+  <div class="tree-container">
+    <div class="christmas-tree" id="tree"></div>
+  </div>
+
+  <button id="giftButton" class="gift-btn">
+    🎁 Open the Gift
+  </button>
+
+</section>
+
+<section class="slide" id="slide2">
+
+  <canvas id="snow"></canvas>
+  <div class="ground"></div>
+
+  <!-- SCENE WRAPPER -->
+  <div class="scene">
+
+    <!-- LEFT SIDE: TREE + CHARACTERS -->
+    <div class="scene-left">
+
+      <!-- BACKGROUND TREES -->
+      <div class="decor-tree left-tree"></div>
+      <div class="decor-tree right-tree"></div>
+     
+      <!-- SANTA -->
+      <div class="santa">
+        <div class="hat"></div>
+        <div class="face"></div>
+        <div class="beard"></div>
+        <div class="body"></div>
+        <div class="arm wave"></div>
+      </div>
+
+      <!-- ELVES -->
+      <div class="elf elf1"></div>
+      <div class="elf elf2"></div>
+
+      <!-- SNOWMAN -->
+      <div class="snowman">
+        <div class="snowball head"></div>
+        <div class="snowball body"></div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE: TEXT -->
+    <div class="scene-right">
+      <div class="message">
+        <h2>Merry Christmas 🎄</h2>
+
+        <p>
+          I just want you to know how thankful I am to have a friend like you.
+          Thank you for being you, for the kindness you show to everyone around you,
+          for always understanding what I’m doing,
+          and for being one of my supporters in my content. 🤍
+        </p>
+
+        <p class="small">
+          Thank you for being you 🤍
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
